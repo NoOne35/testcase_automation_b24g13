@@ -15,7 +15,7 @@ public class TC0002 {
         driver.get(url);
 
 
-    String actualUsername = "helpdesk27@cybertekschool.com";
+    String actualUsername = "helpdesk25@cybertekschool.com";
     WebElement emailButton= driver.findElement(By.name("email"));
         emailButton.sendKeys(actualUsername);
         System.out.println("entered email");
