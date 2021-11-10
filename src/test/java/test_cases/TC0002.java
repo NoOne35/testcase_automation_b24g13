@@ -27,7 +27,7 @@ public class TC0002 {
     String actualURL = driver.getCurrentUrl();
 
     if (expectedURL.equals(actualURL)){
-        System.out.println("PASS -Your e-mail's been sent!");
+        System.out.println("Displayed on Screen: Your e-mail's been sent!");
     } else {
         System.out.println("Fail - home page link does not match expected link");
     }
